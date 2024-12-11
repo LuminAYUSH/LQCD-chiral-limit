@@ -55,8 +55,8 @@ This project explores the application of machine learning (ML) to identify and c
 
 ### Phase Transition Detection
 - Detected phase transition coupling:
-  - \( \beta = 1.99 \pm 0.10 \) (using a \( 2 \times 1 \times 1 \times 1 \) network).
-  - \( \beta = 1.97 \pm 0.10 \) (using a \( 2 \times 8 \times 8 \times 8 \) network).
+  - $ \beta = 1.99 \pm 0.10 $ (using a $ 2 \times 1 \times 1 \times 1 $ network).
+  - $ \beta = 1.97 \pm 0.10 $ (using a $ 2 \times 8 \times 8 \times 8 $ network).
 
 ### Decision Function Reconstruction
 - Revealed the decision function for minimal networks.
