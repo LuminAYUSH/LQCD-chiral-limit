@@ -22,7 +22,7 @@ This project explores the application of machine learning (ML) to identify and c
 ### Neural Network Framework
 - **Feed-Forward Neural Networks**:
   - Trained to classify phases of matter by associating configurations with probabilities.
-  - Decision boundary identified at prediction probability \( D(S) = 0.5 \).
+  - Decision boundary identified at prediction probability $D(S) = 0.5$.
 
 - **Correlation Probing Neural Networks**:
   - Introduced for decoding decision functions.
@@ -45,8 +45,8 @@ This project explores the application of machine learning (ML) to identify and c
 
 ### Phase Transition Detection
 - Neural networks trained on configurations for different coupling ranges:
-  - Confined phase: \( \beta \in [1.0, 1.2] \).
-  - Deconfined phase: \( \beta \in [3.3, 3.5] \).
+  - Confined phase: $\beta \in [1.0, 1.2]$.
+  - Deconfined phase: $\beta \in [3.3, 3.5]$.
 - Predictions tested for intermediate coupling values to locate phase transitions.
 
 ---
@@ -55,8 +55,8 @@ This project explores the application of machine learning (ML) to identify and c
 
 ### Phase Transition Detection
 - Detected phase transition coupling:
-  - $ \beta = 1.99 \pm 0.10 $ (using a $ 2 \times 1 \times 1 \times 1 $ network).
-  - $ \beta = 1.97 \pm 0.10 $ (using a $ 2 \times 8 \times 8 \times 8 $ network).
+  - $\beta = 1.99 \pm 0.10$ (using a $2 \times 1 \times 1 \times 1$ network).
+  - $\beta = 1.97 \pm 0.10$ (using a $2 \times 8 \times 8 \times 8$ network).
 
 ### Decision Function Reconstruction
 - Revealed the decision function for minimal networks.
